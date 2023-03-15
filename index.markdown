@@ -5,7 +5,15 @@ categories: projects
 ---
 
 <head>
-  <!-- no google analytics tag right now -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3C6MWZQJEP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3C6MWZQJEP');
+  </script>
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Leveraging Language for Accelerated Learning of Tool Manipulation</title>
